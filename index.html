@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="LandingPage.css">
+            <style type="text/css" >
+                .flexDesign{
+                    display: flex;
+                    flex-direction: row;
+                    padding-left:10%;
+                    padding-top:5%;
+                    height:500px;
+                }
+                @media (max-width: 600px) {
+                header {
+                    flex-wrap: wrap;
+                    }
+                }
+            </style>
+        </head>
+        <body>
+             <header id="header">
+                <img id="header-img" src="https://i.ibb.co/TvqYqy6/potato-Icon.jpg"  alt="potato logo" height="100px">
+                <p>Potato<sup id="tm">TM</sup></p>
+
+               <nav id="nav-bar">
+                    <a class="nav-link" id="about" href="#aboutDiv">About</a>
+                    <a class="nav-link" id="features" href="#featuresDiv">Features</a>
+                    <a class="nav-link" id="pricing" href="#pricingDiv">Pricing</a>
+                </nav>
+            </header> 
+
+            <main>
+                <section id="aboutDiv">
+                    <div id="aboutImage">
+                        <p id="sweet">"Sweet,Nutritious and Delicious"</p><br/>
+                        <div id="keyToHappiness">The key to happiness is hidden in a <b><i>Potato</i></b><sup>TM</sup></div><br/>
+                        <div id="potatoImage">
+                            <img width="420" height="345" src="potatoImage.png">
+                        </div>                        
+                    </div>
+                <section>
+
+                <section  id="shapesDiv">
+                    <div id="aboutVideo">
+                        <p id="differentShapes">Different shapes and sizes</p><br/>
+                        <div id="videoIntro">Find the one that fits your need</div><br/>
+                        <iframe id="video" width="450" height="345" src="potatoSong.mp4"></iframe>                    
+                    </div>
+                </section>
+
+                <section id="featuresDiv">
+                    <div id="aboutFeatures">
+                        <p id="transformable">Easily Transformable</p><br/>                        
+                        <img id="potatoTypes" src="potatoTransform.jpg" alt="Snow">
+                        <p id="nutrition">110 Calories  &ndash; 26g Carbohydrates &ndash; 3g Protein &ndash; 0g Fat</p>
+              
+                    </div>                                      
+                </section>
+
+                <section id="pricingDiv">
+                    <div id="orderText">Order one ( or more ) today!</div>
+                    <div class="flexDesign">
+                        <div id="lite">
+                            <div class="level"><b class="levelPotato">Potato</b><sup><b>TM</b></sup><b class="levelType"> &nbsp; Lite</b></div>                           
+                            <ul>
+                              <li>Small and compact</li>
+                              <li>Highly portable</li>
+                              <li>Unapologetically delicious</li>
+                            </ul>
+                            <img id="potatoLite" src="potatoLite.jpg"/>
+                        </div>
+                        <div id="pro">
+                            <div class="level"><b class="levelPotato">Potato</b><sup><b>TM</b></sup><b class="levelType"> &nbsp; Pro</b></div>                            
+                            <ul>
+                              <li>Highly portable</li>
+                              <li>Easily Sliceable</li>
+                              <li>Unapologetically delicious</li>
+                              <li>Very nutritious</li>
+                            </ul>
+                            <img id="potatoPro" src="potatoPro.jpg" />
+                        </div>
+                        <div id="team">
+                            <div class="level"><b class="levelPotato">Potato</b><sup><b>TM</b></sup><b class="levelType"> &nbsp;Team</b></div>                            
+                            <ul>
+                              <li>Ideal for bigger groups</li>
+                              <li>Easily Sliceable</li>
+                              <li>Unapologetically delicious</li>
+                              <li>Very nutritious</li>
+                            </ul>
+                            <img id="potatoTeam" src="potatoTeam.jpg"/>
+                        </div>
+                    </div>                    
+                </section>
+
+                <section id="formSection">
+                    <h2 id="emailHeading">Nature-crafted, Earth-made masterpieces</h2>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        
+                        <input id="email" type="email" name="email" placeholder="Enter Your Email"/><br>
+                        <input id="submit" type="submit" value="Submit"/>
+                    
+                    </form>
+                <section>
+
+
+            </main>             
+            
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </body>
+    </html>
