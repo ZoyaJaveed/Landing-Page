@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+    position: fixed;
+    background-color:#353535;
+    height:130px;
+    width:100%; 
+    top:0; 
+    z-index: 1;
+}
+#header-img{
+    padding-left: 10%;
+    padding-top: 10px;
+ }
+body{
+    text-align: center;
+}
+section {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+}
+p{
+ color:white;
+ display:inline;
+ font-size: 50px;
+ padding-bottom: 10px;
+}
+#tm{
+    font-size:20px;
+}
+#about,#features,#pricing{
+    color:white;
+    padding-right:5%;
+    font-size: 25px;
+}
+a:link {
+    text-decoration: none;
+}  
+#nav-bar{
+    font-size:40px;
+    display: inline;
+    padding-left:30%;
+}
+#aboutDiv{
+    background-color: #C5AB96;
+    background-size: cover;
+    align-items: center;
+    margin-top: 130px;
+}
+#aboutVideo{
+    margin-top: 80px;
+}
+#keyToHappiness{
+    font-size: 20px;
+    padding-top: 2%;
+    color:white;
+}
+#potatoImage{
+    padding-top:5%
+}
+#videoIntro{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 2%;
+    color:white;
+}
+#video{   
+    border: none;
+    box-shadow: none;
+    padding-top:3%;
+}
+#shapesDiv{
+    background-color: black;    
+}
+#potatoTypes{
+    width:100%;
+}
+#aboutFeatures{
+    margin-top:-200px;
+}
+#transformable{
+  position: relative;
+  top: 90px;
+  left: 16px;
+  color:#b8a081;
+  z-index: auto;
+}
+#nutrition{
+  font-size: 30px;
+  position: relative;
+  bottom: 100px;
+  left: 50px;
+  color:#b8a081;  
+}
+#pricingDiv{
+    padding-top:5%;
+    background-color: #F2F2F2;
+    color:grey;
+    text-align: center;
+   
+}
+#orderText{
+    color:grey;
+    font-size: 50px;
+}
+.flexDesign{
+    display: flex;
+    flex-direction: row;
+    padding-left:10%;
+    padding-top:5%;
+    height:500px;
+}
+.levelTm{
+    font-size: 0px;
+}
+#lite{
+    background-color: none;
+    width:30%;
+    border-right: solid grey;
+    border-width: 0 1px;   
+}
+
+#pro{
+    background-color: none;
+    width:30%;    
+    border-right: solid grey;
+    border-width: 0 1px;   
+}
+#team{
+    background-color: none;
+    width:30%;   
+}
+.level{
+    padding-top:20px;
+}
+.levelPotato{
+    font-size: 30px;
+}
+.levelType{
+    font-weight:100;
+    font-size: 25px;    
+}
+ul{
+    list-style-type: none;
+    text-align: justify;
+    padding-left:25%;
+    padding-top:5%;
+}
+li{
+    margin: 20px 0;
+    font-size:20px;
+    font-family: cursive;
+}
+#potatoLite{
+    padding-top:70px;
+    width:60%;
+}
+#potatoPro{
+    padding-top:40px;
+    width:60%;
+}
+#potatoTeam{
+    padding-top:40px;
+    width:60%;
+}
+#formSection{
+    background-color:#f4e4ba;
+    height:auto;
+}
+#email{
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #aaa;
+}
+#submit{
+    margin-top: 50px;
+    border-radius: 100px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	height: 45px;
+	width: 200px;
+	text-align: center;
+	outline :none ;
+	background:#B8A08A;
+    border: 1px solid black;
+	box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.15);
+}
+#emailHeading{
+    padding-top:10%;
+    padding-bottom: 5%;
+    font-size: 50px;
+    color:#776565;
+}
+
